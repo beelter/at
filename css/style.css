@@ -1,0 +1,42 @@
+ .form {
+  margin-top: 2rem;
+}
+.heading{
+    text-shadow: 1px 2px #000;
+}
+.slide {
+  background-size: cover;
+}
+
+.list {
+  font-weight: 400;
+  font-size: 4rem;
+
+}
+
+.uslugi {
+  overflow-wrap: break-word;
+}
+
+@media only screen and (max-width : 992px) {
+  .map {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .slider{
+    display: none;
+  }
+  .map {
+    margin-bottom: 2rem;
+  }
+  .uslugi-block {
+  overflow-wrap: break-word;
+  display: block;
+}
+ 
+}
+
+
+
